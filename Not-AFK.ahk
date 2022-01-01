@@ -21,13 +21,13 @@ idleTimeCheck := 30000
 
 ; You can change the key sequence to adapt it to whatever your bindings are,
 ; It should be a space separated list of keys to send, to send an actual space use {space}
-keySequence := "z q s d"
+keySequence := "w a s d"
 anyKeys := StrSplit(keySequence, A_space)
 
 ; If you dont want the character to move,
 ; you may indicate what is the actual oposite movement key from your bindings
 ; ie : if 'z' is sent, your character will go forward, an 's' for backward is also sent
-keySequenceOpposite := { z: "s", s: "z", q: "d", d: "q" }
+keySequenceOpposite := { w: "s", s: "w", a: "d", d: "a" }
 return
 ; ----------------------------------------- -
 
