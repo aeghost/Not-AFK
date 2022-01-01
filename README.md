@@ -13,7 +13,7 @@ Download it from [here](https://github.com/aeghost/Not-AFK/releases/download/Not
 
 Execute the binary `Not-AFK.exe`
 
-If no user interutpion has been detected in `idleTimeCheck` seconds, a random input from `keySequence` will be sent with `rand(0, 1000)` millisecond delay.
+If no user interutpion has been detected in `idleTimeCheck` seconds, a random input from `keySequence` will be sent with `rand(0, 1000)` milliseconds delay.
 
 Then, if it exists, it's opposite `keySequence` from `keySequenceOpposite` will be sent to avoid your character to fall from cliffs, boats, ...
 
@@ -23,7 +23,7 @@ Mouse will also be moved.
 
 ### Stop
 
-To stop go into your taskbar, then find the AHK script icon, right click then use `Exit` or `Suspend`.
+To stop, go into your taskbar, then find the script icon, right click then use `Exit` or `Suspend`.
 
 ![exit.png](https://github.com/aeghost/Not-AFK/blob/main/imgs/exit.jpg?raw=true)
 
