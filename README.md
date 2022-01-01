@@ -33,6 +33,7 @@ You can add keys to `keySequence` that will be add to the random pulled sequence
 
 Separe every keys with a space, to add the actual space, use {space}.
 
+
 For more informations look for `StrSplit` and Key Sequences documentation from AHK language.
 
 Exemple:
