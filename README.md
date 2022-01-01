@@ -29,19 +29,22 @@ To stop, go into your taskbar, then find the script icon, right click then use `
 
 ## Tweeking
 
-You can add keys to the key sequence at l.19, add any keys separated with space.
-To add the actual space bar, use {space}.
+You can add keys to `keySequence` that will be add to the random pulled sequence.
+
+Separe every keys with a space, to add the actual space, use {space}.
 For more informations look for `StrSplit` and Key Sequences documentation from AHK language.
 
+Exemple:
 ```ahk
-keySequence := "z q s d"
+keySequence := "z q s d a e"
 ```
 
 You can add or remove opposite keys from the key sequece opposite dictionnary,
 If you do only a key from key sequence will be sent, if you don't, if the key is pressed then the opposite key will also be sent.
 
+Exemple:
 ```ahk
-keySequenceOpposite := { z: "s", s: "z", q: "d", d: "q" }
+keySequenceOpposite := { z: "s", s: "z", q: "d", d: "q", e: "e" }
 ```
 
 ## Build
