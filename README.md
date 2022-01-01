@@ -1,28 +1,31 @@
 # Not-AFK
 
-## Headline
-
-`Not-AFK` is a minimalist AHK code to get a random undetectable
-input from mouse and keyboard every `idleTimeCheck + rand(0, 1000)` milliseconds.
-
-This input will be send only if you haven't done any moves in the interval 0 to `idleTimeCheck`
-
-By default the idle time is 30 seconds
-`idleTimeCheck = 30s`
+`Not-AFK` is a minimalist AHK code to never be detected as AFK.
+Every 30 seconds, if no user interuption has been detected, an input from mouse and keyboard will be sent.
 
 ## Usage
 
-### Execute
+### Download
 
-Execute the binary `Not-AFK` builded with `Ahk2Exe`, then every `idleTimeCheck + rand(0, 1000)` a random input from `keySequence` will be sent, then his opposite `keySequence` from `keySequenceOpposite` will be sent (if it exists) to avoid your character to fall from cliff, boats, ...
+Download it from [here](https://github.com/aeghost/Not-AFK/releases/download/Not-AFK.0.1.0/Not-AFK-0.1.0-WASD.zip).
 
-Mouse will also be moved. (So don't worry if you are looking the sky)
+### Run
+
+Execute the binary `Not-AFK.exe`
+
+If no user interutpion has been detected in `idleTimeCheck` seconds, a random input from `keySequence` will be sent with `rand(0, 1000)` millisecond delay.
+
+Then, if it exists, it's opposite `keySequence` from `keySequenceOpposite` will be sent to avoid your character to fall from cliffs, boats, ...
+
+Mouse will also be moved.
+
+!! Don't worry if you don't see your character move, inputs are milliseconds keypress, trust, it works.
 
 ### Stop
 
-![exit.png](https://github.com/aeghost/Not-AFK/blob/main/imgs/exit.jpg?raw=true)
-
 To stop go into your taskbar, then find the AHK script icon, right click then use `Exit` or `Suspend`.
+
+![exit.png](https://github.com/aeghost/Not-AFK/blob/main/imgs/exit.jpg?raw=true)
 
 ## Tweeking
 
