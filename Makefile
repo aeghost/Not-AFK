@@ -16,7 +16,7 @@ AHKOUT=/out $(AHKNAME).exe
 AHKICON=/icon $(FROM_SVG).png
 AHKCOMPILE="$(AHKPATH)/$(AHKCOMPILER)" $(AHKIN) $(AHKOUT) $(AHKICON)
 
-.PHONY: all build clean Not-AFK.exe assets/SleepZZZ.png
+.PHONY: all build clean Not-AFK.exe
 
 all: build
 
