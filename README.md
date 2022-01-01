@@ -14,13 +14,13 @@ By default the idle time is 30 seconds
 
 ### Execute
 
-Execute the binary [Not-AFK] builded with [Ahk2Exe], then every `idleTimeCheck + rand(0, 1000)` a random input from `keySequence` will be sent, then his oposite `keySequence` from `keySequenceOpposite` will be sent (if it exists) to avoid your character to fall from cliff, boats, ...
+Execute the binary `Not-AFK` builded with `Ahk2Exe`, then every `idleTimeCheck + rand(0, 1000)` a random input from `keySequence` will be sent, then his opposite `keySequence` from `keySequenceOpposite` will be sent (if it exists) to avoid your character to fall from cliff, boats, ...
 
 Mouse will also be moved. (So don't worry if you are looking the sky)
 
 ### Stop
 
-![alt text](https://github.com/aeghost/Not-AFK/blob/main/exit.jpg?raw=true)
+![exit.png](https://github.com/aeghost/Not-AFK/blob/main/imgs/exit.jpg?raw=true)
 
 To stop go into your taskbar, then find the AHK script icon, right click then use `Exit` or `Suspend`.
 
@@ -47,13 +47,13 @@ Dependencies : Ahk2Exe.exe, Make
 Optionnal Dependencies : InkScape
 
 To make, run
-```Makefile
+```shell
 make
 ```
 
 or
 
-```Makefile
+```shell
 make Not-AFK.exe
 ```
 
@@ -65,8 +65,10 @@ Working on :
 
 - New World,
 - LoL,
-- SoT,
+- Sea Of Thieves,
 - WoW,
 - FF14
 
-Still never seen a game that detect this as "AFK"
+## Warning
+
+Use it at your own risk, but I never have been warned as "AFK" by any detector.
